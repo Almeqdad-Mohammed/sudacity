@@ -14,7 +14,7 @@
     <meta name="keyword" content="@yield('keyword', setting('seo_keyword', 'LaraBBS,社区,论坛,开发者论坛'))"/>
 
     <!-- Styles -->
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     @yield('styles')
 
@@ -41,7 +41,7 @@
 {{--@endif--}}
 
 <!-- Scripts -->
-<script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 
 @yield('scripts')
 
