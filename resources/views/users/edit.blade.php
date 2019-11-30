@@ -37,8 +37,8 @@
           </div>
 
           <div class="form-group mb-4">
-            <label for="" class="avatar-label">Upload Image</label>
-            <input type="file" name="avatar" class="form-control-file">
+{{--            <label for="" class="avatar-label">Upload Image</label>--}}
+{{--            <input type="file" name="avatar" class="form-control-file">--}}
 
             @if($user->avatar)
               <br>
