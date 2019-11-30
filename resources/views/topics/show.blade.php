@@ -39,7 +39,7 @@
             {{ $topic->reply_count }}
           </div>
 
-          <div class="topic-body mt-4 mb-4" style="text-align: right">
+          <div class="topic-body mt-4 mb-4 rtl_mode">
             {!! $topic->body !!}
           </div>
 

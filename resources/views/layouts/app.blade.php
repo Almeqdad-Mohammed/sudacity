@@ -23,6 +23,11 @@
         blockquote {
             text-align: left;
         }
+
+        .rtl_mode {
+            direction: rtl;
+            text-align: right
+        }
     </style>
 </head>
 
