@@ -16,8 +16,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+
     @yield('styles')
 
+    <style>
+        blockquote {
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
