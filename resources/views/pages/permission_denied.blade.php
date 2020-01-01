@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', '无权限访问')
+@section('title', 'Sudacity')
 
 @section('content')
   <div class="col-md-4 offset-md-4">
@@ -7,16 +7,16 @@
       <div class="card-body">
         @if (Auth::check())
           <div class="alert alert-danger text-center mb-0">
-            当前登录账号无后台访问权限。
+            For Testing Just。
           </div>
         @else
           <div class="alert alert-danger text-center">
-            请登录以后再操作
+            For Testing
           </div>
 
           <a class="btn btn-lg btn-primary btn-block" href="{{ route('login') }}">
             <i class="fas fa-sign-in-alt"></i>
-            登 录
+            For Testing
           </a>
         @endif
       </div>
